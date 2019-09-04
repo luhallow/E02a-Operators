@@ -80,7 +80,7 @@ def convertInt(i):
     Converts i to an integer
     '''
     toReturn = 0
-    toReturn = convertInt(i)
+    toReturn = i
     return toReturn
 
 def convertFloat(f):
@@ -88,7 +88,7 @@ def convertFloat(f):
     Converts f to a float
     '''
     toReturn = 0.0
-    # add your code here
+    toReturn = f
     return toReturn
 
 def convertStr(s):
@@ -96,7 +96,7 @@ def convertStr(s):
     Converts s to a string
     '''
     toReturn = ''
-    # add your code here
+    toReturn = s
     return toReturn
 
 def concat(s1,s2):
