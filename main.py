@@ -30,7 +30,7 @@ def div(a1,a2):
     Divides a1 by a2
     '''
     toReturn = 0
-    toReturn = a1/a2
+    toReturn = a1 / a2
     return toReturn
 
 def floorDiv(a1,a2):
@@ -72,7 +72,7 @@ def whichType(t):
     Returns the python data type of t
     '''
     toReturn = ''
-    # add your code here
+    toReturn = t
     return toReturn
 
 def convertInt(i):
