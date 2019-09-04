@@ -80,7 +80,7 @@ def convertInt(i):
     Converts i to an integer
     '''
     toReturn = 0
-    toReturn = i 
+    toReturn = int(i)
     return toReturn
 
 def convertFloat(f):
